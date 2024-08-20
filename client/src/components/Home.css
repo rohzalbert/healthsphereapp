@@ -1,0 +1,84 @@
+.home {
+  font-family: Arial, sans-serif;
+  background-color: #F0FBF1;
+  height: 100vh;
+}
+
+.navbar {
+  margin-bottom: 0;
+  padding-top: 1%;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+  color: #08665A;
+}
+
+.navbar-brand .logo {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  margin-right: 15px;
+}
+
+.nav-link:hover{
+  text-decoration: none;
+  color: #08665A;
+}
+
+.navbar-nav .nav-item .btn-mint-green {
+  background-color: #08665A;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.hero-section {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.app-buttons .btn {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #08665A; 
+  border: none;
+}
+
+.hero-image img {
+  width: 70%;
+  height: auto;
+}
+
+.footer {
+  padding: 20px 0;
+  margin-top: 6%;
+}
+
+
+
+
