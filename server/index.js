@@ -48,7 +48,7 @@ app.use('/api/upload', uploadRoutes); // Use the upload route
 // Serve static files for uploaded medical records
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-app.use(express.static('./client/build'));
+app.use(express.static('../client/build'));
 app.get('*',(req, res) => {
   res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
 });
